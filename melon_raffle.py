@@ -46,8 +46,10 @@ def pick_winner(customers):
 
     chosen_customer = choice(customers)
 
-    print "Contact %s at %s to notify them they've won" % (
+    print "******************************"
+    print "Contact %s at %s to notify them they've won " % (
         chosen_customer.name, chosen_customer.email)
+    print "******************************"
 
 
 customers = organize_customer_data("customers.txt")
